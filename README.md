@@ -7,6 +7,9 @@ This repository is intended for issues tracking for ItemLocks, a Minecraft mod f
 - Read the [FAQ](https://itemlocks.com/faq/)
 - Visit the [Website](https://itemlocks.com/)
 
+# Bug Reports, Feedback and Suggestions.
+This is very welcome and it's what this repository is for. First make sure you've read the [FAQ](https://itemlocks.com/faq/) and that no other issues mention your specific issue. If you still need to open an issue, do so by following one of the templates.
+
 # What is ItemLocks? (This section is copied from the mod pages on CurseForge and Modrinth)
 ItemLocks allows you to lock item slots in your inventory, preventing you from moving items unwillingly.  
 Ever been in a tight PvP situation, or just minding your own business, and suddenly that one guy shows up?  
@@ -28,6 +31,3 @@ ItemLocks is currently closed source. Partially due to my confusing use of branc
 
 ### Why not do source available without a license?
 Because that's honestly more confusing than having it closed source, especially for users not too used with open source and source available and how that stuff works. And this also ties in directly to how I do branches for ItemLocks. Since I support a range of versions, not just the latest versions, the idea of one singular master/main branch doesn't make sense for me. Instead each supported version has its own branch which I then apply using patches. This is not ideal for an open source project, nor is it ideal for GitHub's UI itself, but it works for my current workflow and I've managed to optimize the development in a way where keeping track of these branches isn't too difficult.
-
-# Bug Reports, Feedback and Suggestions.
-This is very welcome and it's what this repository is for. First make sure you've read the [FAQ](https://itemlocks.com/faq/) and that no other issues mention your specific issue. If you still need to open an issue, do so by following one of the templates.
