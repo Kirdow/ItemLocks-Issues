@@ -1,0 +1,88 @@
+name: Bug report
+description: Report a bug.
+title: '[Bug]: '
+labels:
+  - bug
+body:
+  - type: input
+    id: '1'
+    attributes:
+      label: Short description of issue faced?
+      description: Keep description within one or two sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: '2'
+    attributes:
+      label: Expected Behaviour
+      description: A clear and concise description of what you expected to happen.
+  - type: textarea
+    id: '3'
+    attributes:
+      label: Actual Behaviour
+      description: A clear description of what actually happens.
+    validations:
+      required: true
+  - type: dropdown
+    id: '4'
+    attributes:
+      label: What platform are you one?
+      options:
+        - Windows
+        - Linux
+        - macOS
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: '5'
+    attributes:
+      label: Enter your platform
+      description: '**Required if you selected "Other" above.** Otherwise leave blank.'
+      placeholder: e.g., FreeBSD, Android, etc.
+  - type: dropdown
+    id: '6'
+    attributes:
+      label: What mod loader do you use?
+      options:
+        - Fabric
+        - Forge
+        - NeoForge
+    validations:
+      required: true
+  - type: input
+    id: '7'
+    attributes:
+      label: What Minecraft version do you use?
+      description: '**Name your Minecraft version.**'
+      placeholder: e.g., 26.1, 1.21.11, etc.
+    validations:
+      required: true
+  - type: input
+    id: '8'
+    attributes:
+      label: What Java version do you use?
+      description: '**Name your Java version.** This is greatly appreciated if you provide. If unsure, leave blank.'
+      placeholder: e.g., 25, 21, 17, etc.
+  - type: input
+    id: '9'
+    attributes:
+      label: Other mods used?
+      description: '**Name other mods used if any.** Otherwise leave blank.'
+      placeholder: e.g., MouseTweaks, Optifine, Rei's Minimap, etc.
+  - type: input
+    id: '10'
+    attributes:
+      label: Modpacks used?
+      description: '**Name modpacks used if any.** Otherwise leave blank.'
+      placeholder: e.g., Prominence™ II, All the Mods, RLCraft, etc.
+  - type: textarea
+    id: '11'
+    attributes:
+      label: Notes
+      description: If applicable, write any extra notes for context.
+  - type: textarea
+    id: '12'
+    attributes:
+      label: Notes
+      description: If applicable, add screenshots to help explain your problem.
