@@ -26,7 +26,7 @@ body:
   - type: dropdown
     id: '4'
     attributes:
-      label: What platform are you one?
+      label: Which platform are you on?
       options:
         - Windows
         - Linux
