@@ -86,3 +86,11 @@ body:
     attributes:
       label: Notes
       description: If applicable, add screenshots to help explain your problem.
+  - type: checkboxes
+    id: '13'
+    attributes:
+      label: Is your bug report unique?
+      description: By submitting this issue, you verify that you've read the [FAQ](https://itemlocks.com/faq/) as well as having checked existing open issues to make sure your issue has not been reported in the past.
+      options:
+        - label: I verify that this issue is for a topic that has not yet been submitted.
+          required: true
