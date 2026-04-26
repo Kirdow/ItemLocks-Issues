@@ -7,9 +7,6 @@ This repository is intended for issues tracking for ItemLocks, a Minecraft mod f
 - Read the [FAQ](https://itemlocks.com/faq/)
 - Visit the [Website](https://itemlocks.com/)
 
-# Bug Reports, Feedback and Suggestions.
-This is very welcome and it's what this repository is for. First make sure you've read the [FAQ](https://itemlocks.com/faq/) and that no other issues mention your specific issue. If you still need to open an issue, do so by following one of the templates.
-
 # What is ItemLocks? (This section is copied from the mod pages on CurseForge and Modrinth)
 ItemLocks allows you to lock item slots in your inventory, preventing you from moving items unwillingly.  
 Ever been in a tight PvP situation, or just minding your own business, and suddenly that one guy shows up?  
@@ -25,6 +22,9 @@ Well luckily you used this mod, locked the sword slot, and kept your weapon stea
 - Empty slots with a lock are unlocked until it's occupied.
 
 ItemLocks does not grant immunity to item loss during death nor prevents server from manipulating the inventory. The mod is fully client side and only does what the client is capable of.
+
+# Bug Reports, Feedback and Suggestions.
+First make sure you've read the [FAQ](https://itemlocks.com/faq/) and that no other issues mention your specific issue. If you still need to open an issue, do so by following one of the templates.
 
 # Contributions?
 ItemLocks is currently closed source. Partially due to my confusing use of branches and patching, working with a public repository would honestly slow down the process of implementing anything in a reasonable amount of time. That being said, ItemLocks itself is not obfuscated, so if you are curious what it does, feel free to decompile it instead.
