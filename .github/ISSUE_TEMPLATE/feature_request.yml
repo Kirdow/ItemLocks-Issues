@@ -30,7 +30,7 @@ body:
   - type: checkboxes
     id: '4'
     attributes:
-      label: Is your feature request unique?
+      label: Has your feature been requested before?
       description: By submitting this issue, you verify that you've read the [FAQ](https://itemlocks.com/faq/) as well as having checked existing open issues to make sure your issue has not been reported in the past.
       options:
         - label: I verify that this issue is for a topic that has not yet been submitted.
